@@ -1,0 +1,8 @@
+{
+ "dependencies": {
+   "express": "*",
+   "firebase": "*",
+   "body-parser": "*"
+ }
+}
+
