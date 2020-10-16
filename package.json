@@ -1,8 +1,41 @@
 {
- "dependencies": {
-   "express": "*",
-   "firebase": "*",
-   "body-parser": "*"
- }
+  "name": "yhioe",
+  "version": "1.0.0",
+  "description": "unpkl real time cloud service",
+  "main": "yhioe.js",
+  "engines": {
+    "node": "10.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node yhioe.js"
+  },
+  "keywords": [
+    "yhioe",
+    "unpkl",
+    "real",
+    "time",
+    "cloud",
+    "service"
+  ],
+  "author": "Yogesh N",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "4.17.15",
+    "cookie-parser": "1.4.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "cookie-session": "1.4.0",
+    "body-parser": "1.19.0",
+    "firebase": "^5.11.1",
+    "ws": "7.2.3",
+    "uuid": "3.4.0",
+    "@azure/keyvault-secrets": "4.0.0",
+    "@azure/identity": "1.0.0"
+  },
+  "devDependencies": {
+    "fetchival": "^0.3.3",
+    "node-fetch": "^2.3.0",
+    "querystring": "^0.2.0"
+  }
 }
-
